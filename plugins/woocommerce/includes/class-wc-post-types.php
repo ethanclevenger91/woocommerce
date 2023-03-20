@@ -384,21 +384,6 @@ class WC_Post_Types {
 										array(
 											'woocommerce/product-name',
 										),
-									),
-								),
-								array(
-									'woocommerce/product-section',
-									array(
-										'title'       => __( 'Organization & visibility', 'woocommerce' ),
-										'description' => __( 'Help customers find this product by assigning it to categories or featuring it across your sales channels.', 'woocommerce' ),
-									),
-									array(
-										array(
-											'woocommerce/product-category',
-											array(
-												'name' => 'categories',
-											),
-										),
 										array(
 											'core/columns',
 											array(),
@@ -434,6 +419,21 @@ class WC_Post_Types {
 														),
 													),
 												),
+											),
+										),
+									),
+								),
+								array(
+									'woocommerce/product-section',
+									array(
+										'title'       => __( 'Organization & visibility', 'woocommerce' ),
+										'description' => __( 'Help customers find this product by assigning it to categories or featuring it across your sales channels.', 'woocommerce' ),
+									),
+									array(
+										array(
+											'woocommerce/product-category',
+											array(
+												'name' => 'categories',
 											),
 										),
 									),
